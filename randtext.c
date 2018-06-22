@@ -9,7 +9,7 @@
 #define DEBUG_ENABLED
 
 #ifdef DEBUG_ENABLED
-#define DEBUG(...)	printf(__VA_ARGS__)
+#define DEBUG(...)	printf("DBG : "__VA_ARGS__)
 #else
 #define DEBUG(...)
 #endif
