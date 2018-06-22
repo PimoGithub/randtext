@@ -16,9 +16,9 @@
 
 #define ARRAY_SIZE(a)	(sizeof(a) / sizeof(*(a)))
 
-static const char alphabet[] = "abcdefghijklmnopqrstuvxyz";
+static const char alphabet[] = "abcdefghijklmnopqrstuvwxyz";
 static const char vowels[] = "aeiouy";
-static const char consonants[] = "bcdfghjklmnpqrstvxz";
+static const char consonants[] = "bcdfghjklmnpqrstvwxz";
 
 int random_seed()
 {
