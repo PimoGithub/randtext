@@ -6,7 +6,7 @@
 #include <fcntl.h>
 #include <errno.h>
 
-#define DEBUG_ENABLED
+//#define DEBUG_ENABLED
 
 #ifdef DEBUG_ENABLED
 #define DEBUG(...)	printf("DBG : "__VA_ARGS__)
